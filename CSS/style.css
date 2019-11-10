@@ -1,0 +1,317 @@
+/*comentários no css */
+
+/*  seletor {
+  propriedade: valor;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1024px) {
+  body {
+    margin: 10px;
+  }
+}
+
+.banner {
+  background-image: url("../img/P_20181118_111432.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #826994
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+
+
+
+@media (max-width: 1024px){
+  .banner {
+    height: 430px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 288px;
+  }
+}
+.texto {
+  text-align: center;
+}
+
+
+
+.texto h1 {
+  color: white;
+  font-size: 60px;
+}
+@media (max-width: 1024px) {
+  .texto h1 {
+    font-size: 50px;
+    color: #826;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto h1 {
+    font-size: 38px;
+    color: lightcoral;
+  }
+}
+.texto p {
+  margin-bottom: 70px;
+  color: white;
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .texto p {
+    color: lightcoral
+  }
+}
+
+.texto a {
+  background-color: white;
+  color: #826994;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+@media (max-width:1024px) {
+  .texto a {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto a {
+    color: lightcoral
+  }
+}
+
+
+/*SEGUNDA PARTE */
+
+.sobre-mim {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+@media (max-width:1024px) {
+  .sobre-mim {
+    justify-content: left;
+  }
+}
+
+.sobre-mim-descricao {
+  width: 465px; /*Largura da tela */
+  padding-right: 60px;
+
+}
+ @media (max-width: 1024px) {
+   .sobre-mim-descricao {
+     padding-right: 28px;
+     width: 575px;
+   }
+ }
+
+ @media (max-width: 768px) {
+   .sobre-mim-descricao {
+     width: 385px;
+   }
+ }
+
+.sobre-mim-descricao p {
+  line-height: 20px;
+
+}
+@media (max-width: 1024px) {
+  .sobre-mim-descricao p {
+    font-size: 17px
+  }
+}
+@media (max-width:1024px) {
+  .sobre-mim-descricao p {
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-descricao p {
+    font-size: 13px;
+    margin-right: 88px;
+  }
+}
+
+.sobre-mim-descricao h2 {
+  width: 465px;
+  padding-right: 60px;
+  margin-top: 45px;
+  color: grey;
+}
+@media (max-width: 1024px) {
+  .sobre-mim-descricao h2 {
+    margin-top: 17px;
+    color: rebeccapurple
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-descricao h2 {
+    color: lightcoral
+  }
+}
+
+
+.sobre-mim-descricao a {
+  background-color: white;
+  color: #826994;
+  border: 1px solid #826994;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-descricao a {
+    color: lightcoral
+  }
+}
+
+.sobre-mim-lista {
+  margin-top: 65px;
+
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-lista {
+    margin-top: 0px;
+  }
+}
+
+.sobre-mim-lista__titulo {
+  font-size: 17px;
+  color: grey;
+}
+@media (max-width: 1024px) {
+  .sobre-mim-lista__titulo {
+    font-size: 20px;
+    color: rebeccapurple
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-lista__titulo {
+    color: lightcoral
+  }
+}
+
+.sobre-mim-lista__topicos {
+  padding-left: 20px;
+  line-height: 24px;
+}
+@media (max-width: 1024px) {
+  .sobre-mim-lista__topicos {
+    line-height: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .sobre-mim-lista__topicos {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mim-lista__topicos {
+    font-size: 12px;
+    line-height: 24px;
+    
+  }
+}
+
+/* TERCEIRA PARTE */
+
+.redes-sociais {
+  display: flex;
+  justify-content: end;
+}
+
+
+
+.rede-social-especifica {
+  background-color: #826994;
+  color: white;
+  padding: 50px 40px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1024px) {
+  .rede-social-especifica {
+    margin: 60px;
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rede-social-especifica {
+    margin: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rede-social-especifica {
+    background-color: lightsalmon
+  }
+}
+
+
+.rede-social-especifica a {
+  color: white;
+  text-decoration: none
+}
+
+.rodape {
+  background-color: #dcdcdc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+}
+@media (max-width: 1024px) {
+  .rodape {
+    background-color: #826994
+  }
+}
+@media (max-width: 1024px) {
+  .rodape {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .rodape {
+    background-color: lightsalmon
+  }
+}
+@media (max-width: 1024px) {
+  .rodape {
+    margin-top: 0px;
+  }
+}
+
+
+.rodape p {
+  margin: 15px;
+}
+
+
